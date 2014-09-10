@@ -1,4 +1,4 @@
-defmodule Plug.Parsers.JSON do
+defmodule Unplug.Parsers.JSON do
   alias Plug.Conn
 
   def parse(%Conn{} = conn, "application", "json", _, opts) do

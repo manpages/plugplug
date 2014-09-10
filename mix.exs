@@ -1,8 +1,8 @@
-defmodule PlugPlug.Mixfile do
+defmodule Unplug.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :plugplug,
+    [app: :unplug,
      version: "0.0.1",
      elixir: "~> 0.15.2-dev",
      deps: deps]

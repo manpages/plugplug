@@ -13,11 +13,6 @@ defmodule Unplug.Static do
         end
       end
 
-      get unquote(at) <> "/*_rest" do
-        conn
-        |> StaticPlug.call(StaticPlug.init([]))
-      end
-
     end
   end
 end
